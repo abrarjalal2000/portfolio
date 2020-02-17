@@ -1,133 +1,203 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Abrar Jalal</title>
+    <title>Abrar Jalal's Homepage</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="Abrar Jalal">
+    <meta property="og:description" content="Abrar Jalal is currently an undergraduate student at Boston College in the Morrissey College of Arts & Sciences.
+        He is currently pursuing a bachelors of science, majoring in Computer Science and minoring in Mathematics.
+        He is an active member in Boston College's Computer Science Society and Running Club.">
+    <meta property="og:image" content="propic.jpg">
+    <meta property="og:url" content="https://github.com/abrarjalal2000">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">    
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://kit.fontawesome.com/9fb837fd10.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="about.html" target= "_blank">About</a>
-            </li>
-            <li>
-                <a href="news.html" target= "_blank"> News</a>
-            </li>
-            <li>
-                <a href="projects.html" target= "_blank">Projects</a>
-            </li>
-        </ul>
-    </nav>
-    <section id="about">
-        <header>
-            <h1>Abrar Jalal</h1>
-        </header>
-        <div>
-            <img src="propic.jpg" alt="profile picture" style="width:auto; height:350px"/>
-        </div>
-        <div>           
-            <p>
-                <strong> Undergraduate Student at Boston College</strong><br>
-                jalala@bc.edu <br>
-                Walsh Hall 706, Chestnut Hill, MA 02467</strong><br>
-            </p>
-        </div>
-        <div>
-            <p>
-                <a href="Abrar Jalal Resume.pdf" target="_blank">Resume</a>  |
-                <a href="https://twitter.com/azj3000" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/abrar-jalal-6657b4184/"
-                target="_blank">LinkedIn</a> | <a href="https://github.com/abrarjalal2000" target="_blank">Github</a><br>
-            </p>
-                
-        </div>
-        <div>
-            <p>
-                Abrar Jalal is currently an undergraduate student at <strong> Boston College in the Morrissey College of Arts & Science</strong>
-                He is currently pursuing a <strong>bachelors of science, majoring in Computer Science and minoring in Mathematics </strong>.
-                He is an active member in Boston College's <strong>Computer Science Society and Running Club</strong>.
-            </p>
-        </div>
-    </section>
-<section id="news">
-    <header>
-        <h1>News</h1>
-    </header>
-    <div>
-        <ul>
-            <li>
-                Visited family and vacationed in Bangladesh this past August of 2019.
-            </li>
-            <li>
-                Joined Boston College's Computer Science Society.
-            </li>
-            <li>
-                Joined Boston College's club running team this past fall.
-            </li>
-            <li>
-                Was recently selected into the Mentorship Program run by the Boston College Computer Science Society.
-            </li>
-            <li>
-                Began working at the new market at the lower dining hall for work study job. 
-            </li>      
-        </ul>
+    <div class="flex-container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#news"> News</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="about">
+            <header>
+                <h1 id="name" class="animated infinite pulse slower delay-3s">Abrar Jalal</h1>
+            </header>
+            <div class="row">
+                <div class="col-6">
+                    <img src="propic.jpg" alt="profile picture" style="width:auto; height:350px"/>        
+                    <p>
+                        <strong> Undergraduate Student at Boston College</strong><br>
+                        jalala@bc.edu <br>
+                        Walsh Hall 706, Chestnut Hill, MA 02467</strong><br>
+                        <a href="Abrar Jalal Resume.pdf" target="_blank"><i class="fas fa-file"></i>Resume</a>  |
+                        <a href="https://twitter.com/azj3000" target="_blank"><i class="fab fa-twitter"></i></a> | <a href="https://www.linkedin.com/in/abrar-jalal-6657b4184/"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a> | <a href="https://github.com/abrarjalal2000" target="_blank"><i class="fab fa-github"></i></a><br>
+                </div>
+                <div class="col-6">
+                    <p>
+                        Abrar Jalal is currently an undergraduate student at <strong> Boston College in the Morrissey College of Arts & Science</strong>
+                        He is currently pursuing a <strong>bachelors of science, majoring in Computer Science and minoring in Mathematics </strong>.
+                        He is an active member in Boston College's <strong>Computer Science Society and Running Club</strong>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <header>
+                <h1 class= "title">News</h1>
+            </header>
+            <div>
+                <div class="row">
+                    <div class="col-8">
+                        Visited family and vacationed in Bangladesh.
+                    </div>
+                    <div class="col-4">
+                        August 2019.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        Joined Boston College's Computer Science Society.
+                    </div>
+                    <div class="col-4">
+                        September 2019            
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        Joined Boston College's Club Running team.
+                    </div>
+                    <div class="col-4">
+                        September 2019            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        Selected into Boston College Computer Science Society's Mentorship Program.
+                    </div>
+                    <div class="col-4">
+                        October 2019            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        Began working at The Market at Corcoran Commons for work study.
+                    </div>
+                    <div class="col-4">
+                        February 2020           
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <header>
+                <h1 class="title">Projects</h1>
+            </header>
+            <div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="project-title">
+                            <a href="project_one.html" target= "_blank">"No More Monster Here" Stage Design Collaboration Project</a>
+                        </div>
+                        <div class="project-authors">
+                            Collaborated with <strong> Meghan Schlageter </strong> and <strong> Lily Telegdy </strong> <br>
+                        </div>
+                        <div class="project-source">
+                        <em>Stage Design I, Professor Crystal Tiala <strong>Spring 2020</strong></em><br>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag set">Set</span>
+                            <span class="tag design">Design</span>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                In this project for my stage design class my group and I have developed a script 
+                                breakdown for the play "No More Monsters Here" by Marcus Gardley. We have conducted visual 
+                                and thematic research for this play by creating a pinterest board and exploring unqiue and 
+                                creative approaches to stage design. 
+                            </p>
+                        </div>
+                    </div>
+                        <div class="col-6">
+                            <img class="project-teaser" src="teaser_image_one.jpg"/>
+                        </div>
+                </div> 
+                <div class="row">
+                    <div class="col-6">
+                        <div class="project-title">
+                            <a href="project_two.html" target= "_blank">Bulls and Cows Game</a>
+                        </div>
+                        <div class="project-authors">
+                            <strong>Abrar Jalal</strong><br>
+                        </div>
+                        <div class="project-source">
+                            <em>Data Structures, Naomi Bolotin <strong>Spring 2019</strong></em>
+                        </div>
+                        <div class="project-tags">
+                                <span class="tag java">Java</span>
+                                <span class="tag game">Game</span>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                In this project for my Data Structures course at Boston College I created a user-based
+                                game called "Bulls and Cows" using Java. The presmise of the game is to 
+                                discover what the randomly generated computer number is with 10 guesses. The only aide 
+                                recived is a Bulls indicator (which means right digit and right placeholder) 
+                                or Cows indicator (which means right digit wrong placeholder). 
+                            </p>   
+                        </div>   
+                    </div>
+                    <div>
+                        <img class="project-teaser" src="teaser_image_two.png"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="project-title">
+                            <a href="project_three.html" target= "_blank">Portfolio Project</a> 
+                        </div>
+                        <div class="project-authors">
+                            <strong>Abrar Jalal</strong> <br>
+                        </div>
+                        <div class="project-source">
+                        <em>Web Development, Nam Wook Kim <strong>Spring 2020</strong></em><br>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag portfolio">Portfolio</span>
+                            <span class="tag site">Site</span>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                In this project for my Web development course I applied many of the skills and lessons
+                                I learned from class to create my own portfolio website. I used HTML, CSS, and 
+                                JavaScript to develop this website.
+                            </p>
+                        </div>
+                    </div>
+                        <div class="col-6">
+                            <img class="project-teaser" src="teaser_image_three.png"/>
+                        </div>
+                </div>
+        </section>
+        <footer>Copyright © 2020 Abrar Jalal</footer>
     </div>
-</section>
-<section id="projects">
-    <header>
-        <h1>Projects</h1>
-    </header>
-    <h3>"No More Monster Here" Stage Design Collaboration Project</h3>
-        <div>
-            <p>
-                Collaborated with <strong> Meghan Schlageter </strong> and <strong> Lily Telegdy </strong> <br>
-                <strong> Stage Design I</strong> taught by <strong> Professor Crystal Tiala </strong> <br>
-                <strong>Spring 2020 </strong>
-            </p>
-            <img src="teaser_image_one.jpg" style="width:auto;height:250px" />
-        </div>
-        <div>
-            <p>
-                In this project for my stage design class my group and I have developed a script 
-                breakdown for the play "No More Monsters Here" by Marcus Gardley. We have conducted visual 
-                and thematic research for this play by creating a pinterest board and exploring unqiue and 
-                creative approaches to stage design. 
-            </p>
-            <a href="project_one.html" target= "_blank">(LEARN MORE)</a>
-        </div>
-        <h3>Bulls and Cows Java Game</h3>
-        <div>
-            <p>
-                Indepedently worked <br>
-                <strong>Spring 2019</strong> <br> 
-               <strong>Data Structures</strong> taught by <strong> Professor Naomi Bolotin</strong>
-            </p>
-            <img src="teaser_image_two.png" style="width:auto;height:250px" />
-        </div>
-        <div>
-            <p>
-                In this project for my Data Structures course at Boston College I created a user-based
-                game called "Bulls and Cows" using <strong>Java</strong>. The presmise of the game is to 
-                discover what the randomly generated computer number is with 10 guesses. The only aide 
-                recived is a <strong>Bulls indicator (which means right digit and right placeholder)</strong> 
-                or <strong>Cows indicator (which means right digit wrong placeholder). </strong>
-            </p>
-            <a href="project_two.html" target= "_blank">(LEARN MORE)</a>
-        </div>
-        <h3>Portfolio Project</h3>
-        <div>
-            <p>
-                Worked Independently <br>
-                <strong>Web Development</strong> taught by <strong>Professor Nam Wook Kim</strong> <br>
-                <strong>Spring 2020</strong>
-            </p>
-            <img src="teaser_image_three.png" style="width:auto;height:250px" />
-        </div>
-        <div>
-            <p>
-                In this project for my Web development course I applied many of the skills and lessons
-                I learned from class to create my own portfolio website. I used <strong>HTML, CSS, and 
-                JavaScript to develop this website.</strong>
-            </p>
-            <a href="project_three.html" target= "_blank">(LEARN MORE)</a> 
-        </div>
-</section>
 </body>
+</html>
