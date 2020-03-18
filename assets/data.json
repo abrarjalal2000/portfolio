@@ -1,0 +1,76 @@
+
+{   
+  "nav":
+    {
+      "item0": "About",
+      "item1": "News",
+      "item2": "Projects"
+    },
+  "about":
+    {
+      "name": "Abrar Jalal",
+      "photo": "assets/propic.jpg",
+      "title": "Undergraduate Student at Boston College",
+      "email": "jalala@bc.edu",
+      "address": "Walsh Hall 706, Chestnut Hill, MA 02467",
+      "resume": "assets/Abrar Jalal Resume.pdf",
+      "twitter": "https://twitter.com/azj3000",
+      "linkedin": "https://www.linkedin.com/in/abrar-jalal-6657b4184/",
+      "github": "https://github.com/abrarjalal2000",
+      "description": "Abrar Jalal is currently an undergraduate student at Boston College in the Morrissey College of Arts & Science. He is currently pursuing a bachelors of science, majoring in Computer Science and minoring in Mathematics. He is an active member in Boston College's Computer Science Society and Running Club."
+    },
+    "news":[
+    {
+      "title":"Visited family and vacationed in Bangladesh.",
+      "date": "August 2019."
+    },
+    {
+      "title":"Joined Boston College's Computer Science Society.",
+      "date": "September 2019"
+    },
+    {
+      "title":"Joined Boston College's Club Running team.",
+      "date": "August 2019."
+    },
+    {
+      "title":"Selected into Boston College Computer Science Society's Mentorship Program.",
+      "date": "October 2019 "
+    },
+    {
+      "title":"Began working at The Market at Corcoran Commons for work study.",
+      "date": "February 2020"
+    }
+  ],
+    "projects": [
+      {
+        "id": "No More Monster Here",
+        "title": "'No More Monster Here' Stage Design Collaboration Project",
+        "authors": "Meghan Schlageter, Lily Telegdy",
+        "source": "Stage Design I, Professor Crystal Tiala, Spring 2020",
+        "tags": ["Set", "Design"],
+        "description": " In this project for my stage design class my group and I have developed a script breakdown for the play 'No More Monsters Here' by Marcus Gardley. We have conducted visual and thematic research for this play by creating a pinterest board and exploring unqiue and creative approaches to stage design.",
+        "summary":"For our final design we have decided to go with a surrealistic approach to the set design. This entails a more dream like effect on our play. We hope to acheive this with a pixelated videogame-like backdrop and exaggerated actions.",
+        "teaser": "assets/teaser_image_one.jpg"
+      },
+      {
+        "id": "Bulls and Cows",
+        "title": "Bulls and Cows Game",
+        "authors": "Abrar Jalal",
+        "source": "Data Structures, Naomi Bolotin Spring 2019",
+        "tags": ["Java", "Game"],
+        "description": "  In this project for my Data Structures course at Boston College I created a user-based game called 'Bulls and Cows' using Java. The presmise of the game is to discover what the randomly generated computer number is with 10 guesses. The only aide recived is a Bulls indicator (which means right digit and right placeholder) or Cows indicator (which means right digit wrong placeholder).",
+        "summary":"In the intitial stages of this game I had kept the size of the random integer fixed to 4 digits, however, since then I have added levels to the game and added more digits. Ultimately, the goal was to make it harder for the user to win as he or she progressed through the levels.",
+        "teaser": "assets/teaser_image_two.png"
+      },
+      {
+        "id": "Portfolio Project",
+        "title": "Portfolio Project",
+        "authors": "Abrar Jalal",
+        "source": "Web Development, Nam Wook Kim Spring 2020",
+        "tags": ["Portfolio", "Site"],
+        "description": "In this project for my Web development course I applied many of the skills and lessons I learned from class to create my own portfolio website. I used HTML, CSS, and JavaScript to develop this website.Web Development",
+        "summary":"In this project for my Web development course I applied many of the skills and lessons I learned from class to create my own portfolio website. I am using HTML, CSS, and JavaScript to develop this website.",
+        "teaser": "assets/teaser_image_three.png"
+      }
+    ]
+}
