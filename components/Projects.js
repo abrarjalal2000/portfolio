@@ -10,29 +10,25 @@ export default function Projects(projects){
           All
         </label>
         <label>
-          <input type="radio" name="filter" value="set">
-          Set
+          <input type="radio" name="filter" value="frontend">
+          Frontend
         </label>
         <label>
-          <input type="radio" name="filter" value="design">
-          Design
+          <input type="radio" name="filter" value="backend">
+          Backend
         </label>
         <label>
-          <input type="radio" name="filter" value="java">
-          Java
+          <input type="radio" name="filter" value="full stack">
+          Full Stack
         </label>
         <label>
-          <input type="radio" name="filter" value="game">
-          Game
-        </label>
-        <label>
-          <input type="radio" name="filter" value="portfolio">
-          Portfolio
-        </label>
-        <label>
-          <input type="radio" name="filter" value="site">
-          Site
-        </label>
+        <input type="radio" name="filter" value="web development">
+        Web Development
+      </label>
+      <label>
+      <input type="radio" name="filter" value="game">
+      Game
+    </label>
     </div><br>
       <div class="project-list">
         ${ProjectItems(projects)}

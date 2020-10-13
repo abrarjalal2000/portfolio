@@ -16,9 +16,6 @@ export default function ProjectPage(d){
         <span class="tag set">${d.tags[0]}</span>
         <span class="tag design">${d.tags[1]}</span>
       </div>
-      <div class="project-description">
-        ${d.description}<br>
-      </div>
       <div class="project-desc">
         ${d.summary}<br>
       </div>

@@ -12,17 +12,25 @@
       "photo": "assets/propic.jpg",
       "title": "Undergraduate Student at Boston College",
       "email": "jalala@bc.edu",
-      "address": "Walsh Hall 706, Chestnut Hill, MA 02467",
-      "resume": "assets/Abrar Jalal Resume.pdf",
+      "address": "Boston College, Chestnut Hill, MA 02467",
+      "resume": "assets/AbrarJalalResume.pdf",
       "twitter": "https://twitter.com/azj3000",
       "linkedin": "https://www.linkedin.com/in/abrar-jalal-6657b4184/",
       "github": "https://github.com/abrarjalal2000",
-      "description": "Abrar Jalal is currently an undergraduate student at Boston College in the Morrissey College of Arts & Science. He is currently pursuing a bachelors of science, majoring in Computer Science and minoring in Mathematics. He is an active member in Boston College's Computer Science Society and Running Club."
+      "description": "Abrar Jalal is currently an undergraduate student at Boston College in the Morrissey College of Arts & Science. He is currently pursuing a Bachelor of Science in Computer Science and a Minor in Mathematics."
     },
     "news":[
     {
-      "title":"Visited family and vacationed in Bangladesh.",
-      "date": "August 2019."
+        "title":"Started working as a Teaching Assistant under the Boston College Computer Science Department.",
+        "date": "September 2020"
+    },
+    {
+      "title":"Began volunteering for the Students for Good Initiative at Boston College",
+      "date": "September 2020"
+  },
+    {
+      "title":"Began summer internship as a Software Development Intern at Sensitech Inc. in Beverly, Ma.",
+      "date": "June 2020"
     },
     {
       "title":"Joined Boston College's Computer Science Society.",
@@ -43,34 +51,34 @@
   ],
     "projects": [
       {
-        "id": "No More Monster Here",
-        "title": "'No More Monster Here' Stage Design Collaboration Project",
-        "authors": "Meghan Schlageter, Lily Telegdy",
-        "source": "Stage Design I, Professor Crystal Tiala, Spring 2020",
-        "tags": ["Set", "Design"],
-        "description": " In this project for my stage design class my group and I have developed a script breakdown for the play 'No More Monsters Here' by Marcus Gardley. We have conducted visual and thematic research for this play by creating a pinterest board and exploring unqiue and creative approaches to stage design.",
-        "summary":"For our final design we have decided to go with a surrealistic approach to the set design. This entails a more dream like effect on our play. We hope to acheive this with a pixelated videogame-like backdrop and exaggerated actions.",
-        "teaser": "assets/teaser_image_one.jpg"
+        "id": "Spotify Manager",
+        "title": "Spotify Manager",
+        "authors": "Abrar Jalal, Scott Sieger, Andrew Greenwell, Mathew Scott",
+        "source": "Web Application Development, Professor Nam Wook Kim, Spring 2020",
+        "tags": ["Frontend", "Web Development"],
+        "description": ["A frontend React.js web application that allows users to have more control over their music listening experience.By logging in with their Spotify credentials, users can view their top songs across various timeframes and automatically generate playlists from them. This app features fully responsive UI design, making it both functional and beautiful on screens of all sizes. Spotify Manager is still in a prototype phase with plenty of room for expansion, but it is currently deployed and available for use at <a href='https://spotifymanager.com' target='_blank'>spotifymanager.com</a>."],
+        "summary": ["In the Spring of 2020, I saw an opportunity to provide listeners with even more control over their music streaming experience. Although Spotify provides a great streaming platform, managing one's music library can be a tedious task at times. As a result, I built a web app that alleviates some of these frustrations by integrating with the Spotify API. This web app is still in a prototype phase with plenty of room for expansion, but it is currently deployed and available for use at <a href='https://spotifymanager.com' target='_blank'>spotifymanager.com</a>. <br><br> Throughout the development of this project, I focused on honing the following skills: <ol><li>Designing and constructing user interfaces that look beautiful and function seemlessly on devices of all sizes.</li><li>Interfacing with publicly available APIs by making HTTP requests, including 3rd party authentication services, and writing asynchronous javascript.</li></ol>"],
+        "teaser": "assets/SpotifyManagerWebAppScreenshot.png"
+      },
+      {
+        "id": "Validation Package Generator",
+        "title": "Validation Package Generator",
+        "authors": "Abrar Jalal, Mathew Faucher",
+        "source": "Sensitech Inc., Beverly, Massachusetts Summer 2020",
+        "tags": ["Full Stack","Frontend"],
+        "description":["In this project I Implemented a full stack desktop application in C# to automate QA report packages from Jira. I designed a REST API based application utilizing asynchronous JavaScript and basic authentication. I also Developed a user-friendly interface on .NET framework and Windows Forms (Frontend). And I collaborated with a team of software engineers and quality assurance team in an Agile environment "],
+        "summary":"Throughout the course of summer 2020 I focused on improving my technical skills. Through my internship I was able to learn a new programming laguage C#, as well as learn how to create a REST API based application. This was also my first time working in a collaborative programming Environment. Overall, during my short stay with the company the growth in my understanding of the industry and my technical skills has vastly increased",
+        "teaser": "assets/ValidationPackageGenerator.png"
       },
       {
         "id": "Bulls and Cows",
         "title": "Bulls and Cows Game",
         "authors": "Abrar Jalal",
         "source": "Data Structures, Naomi Bolotin Spring 2019",
-        "tags": ["Java", "Game"],
+        "tags": ["Backend","Game"],
         "description": "  In this project for my Data Structures course at Boston College I created a user-based game called 'Bulls and Cows' using Java. The presmise of the game is to discover what the randomly generated computer number is with 10 guesses. The only aide recived is a Bulls indicator (which means right digit and right placeholder) or Cows indicator (which means right digit wrong placeholder).",
         "summary":"In the intitial stages of this game I had kept the size of the random integer fixed to 4 digits, however, since then I have added levels to the game and added more digits. Ultimately, the goal was to make it harder for the user to win as he or she progressed through the levels.",
         "teaser": "assets/teaser_image_two.png"
-      },
-      {
-        "id": "Portfolio Project",
-        "title": "Portfolio Project",
-        "authors": "Abrar Jalal",
-        "source": "Web Development, Nam Wook Kim Spring 2020",
-        "tags": ["Portfolio", "Site"],
-        "description": "In this project for my Web development course I applied many of the skills and lessons I learned from class to create my own portfolio website. I used HTML, CSS, and JavaScript to develop this website.Web Development",
-        "summary":"In this project for my Web development course I applied many of the skills and lessons I learned from class to create my own portfolio website. I am using HTML, CSS, and JavaScript to develop this website.",
-        "teaser": "assets/teaser_image_three.png"
       }
     ]
 }
